@@ -25,7 +25,7 @@ Have any issues? Let me know on [Reddcointalk](https://www.reddcointalk.org/user
 
 ### Donations ###
 
-Rsurge4R9r1XWfPpkRMZ95p7AXsez7tFqw
+    Rsurge4R9r1XWfPpkRMZ95p7AXsez7tFqw
 
 ### Default but configurable options ###
 
