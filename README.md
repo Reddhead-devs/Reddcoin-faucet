@@ -1,6 +1,6 @@
 # OPEN SOURCE REDDCOIN FAUCET #
 
-This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. 
+This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. Made by [iisurge](https://github.com/iisurge)
 
 
 ### Prerequisites ###
