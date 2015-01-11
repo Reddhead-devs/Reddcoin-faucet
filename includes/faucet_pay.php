@@ -24,7 +24,7 @@ if (isset($_POST['faucet-pay'])) {
         $validator = new ReddCoinAddressValidator();
         $isValid = $validator->checkAddress($find);
         
-    if (($isValid ? true  : false) == true) {
+    if (($isValid ? true : false) == true) {
             
        if (faucet($address, $ip, $mysqli) == $address) {
            
