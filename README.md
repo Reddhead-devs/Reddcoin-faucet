@@ -6,6 +6,7 @@ Veiw default front end  [here](http://reddhead-devs.github.io/Reddcoin-faucet/ex
 
 
 Made by [iisurge](https://github.com/iisurge)
+
 [![Build Status](https://travis-ci.org/Reddhead-devs/Reddcoin-faucet.svg?branch=master)](https://travis-ci.org/Reddhead-devs/Reddcoin-faucet)
 
 ### Prerequisites ###
