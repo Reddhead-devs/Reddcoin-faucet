@@ -1,6 +1,12 @@
 # OPEN SOURCE REDDCOIN FAUCET #
 
-This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. Made by [iisurge](https://github.com/iisurge)
+This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. 
+
+Veiw default front end at http://reddhead-devs.github.io/Reddcoin-faucet/example.html
+
+There is a captcha between the text box and redeem button on the set up version
+
+Made by [iisurge](https://github.com/iisurge)
 
 
 ### Prerequisites ###
