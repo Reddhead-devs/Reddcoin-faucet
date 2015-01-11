@@ -2,7 +2,7 @@
 
 This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. 
 
-Veiw default front end at http://reddhead-devs.github.io/Reddcoin-faucet/example.html
+Veiw default front end  [here](http://reddhead-devs.github.io/Reddcoin-faucet/example.html)
 
 
 Made by [iisurge](https://github.com/iisurge)
