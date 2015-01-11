@@ -701,7 +701,7 @@ footer .creds small {
 }
 
 footer .owner .avatar {
-  background-color: #fff;
+  background-color: #ffffff;
   display: block;
   margin: -19px 10px 0 0;
   width: 60px;
@@ -710,7 +710,7 @@ footer .owner .avatar {
 
 footer .owner img {
   display: block;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #ffffff;
   margin: 5px;
 }
 
