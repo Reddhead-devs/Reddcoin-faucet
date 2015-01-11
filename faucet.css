@@ -1,0 +1,71 @@
+ body {
+        color: white;
+        background: #000 url(imgs/faucet.png) center no-repeat; 
+        background-attachment:fixed;
+        background-size: 50%;
+    }
+
+#title {
+    background-color: #9E9E9E;
+    color: black;
+    border-bottom: 4px solid red;
+    font-weight: bolder;
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+table {
+     border-collapse: collapse;
+}
+
+.recents tr:nth-child(odd){
+     background-color: #9E9E9E;
+    color: black;
+        
+    font-weight: bold;
+    font-size: 1.25em;
+    opacity: 0.7;
+}
+
+.recents tr:nth-child(even) {
+    background-color: white;
+    color: black;
+        
+    font-weight: bold;
+    font-size: 1.25em;
+    opacity: 0.7;
+}
+
+.recents tr:not(:last-child) {
+     border-bottom: 5px solid black;
+}
+
+.recents td {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 5px solid black;
+}
+    
+#topbal {
+    text-align: center;
+}
+
+#formcontainer {
+    text-align: center;    
+}
+
+#faucetform {
+    display: inline-block;
+}
+
+.stats {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    font-weight: bold;
+}
