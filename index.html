@@ -1,0 +1,114 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Reddcoin faucet</title>
+  <meta name="description" content="A php Reddcoin Faucet">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Reddcoin faucet</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A php Reddcoin Faucet</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Reddhead-devs/Reddcoin-faucet/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Reddhead-devs/Reddcoin-faucet/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Reddhead-devs/Reddcoin-faucet" class="code">View Reddcoin faucet on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="open-source-reddcoin-faucet" class="anchor" href="#open-source-reddcoin-faucet" aria-hidden="true"><span class="octicon octicon-link"></span></a>OPEN SOURCE REDDCOIN FAUCET</h1>
+
+<p>This is a faucet for someone who wants to run a service but doesn't have the time/knowledge to do so. </p>
+
+<h3>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h3>
+
+<ul>
+<li>A server/VPS with reddcoind</li>
+<li>Knowledge on how to set up a database and user</li>
+<li>Basic php knowledge is highly recommended</li>
+</ul>
+
+<h3>
+<a id="set-up" class="anchor" href="#set-up" aria-hidden="true"><span class="octicon octicon-link"></span></a>Set Up</h3>
+
+<ul>
+<li>Configure reddcoin.conf with a user and pass</li>
+<li>Configure includes/cryptowallet-php-api/config.php</li>
+<li>Configure and follow instructions in includes/dbconfig.php</li>
+<li>Set up captcha with <a href="https://www.google.com/recaptcha">https://www.google.com/recaptcha</a>
+</li>
+<li>Set site-key from recaptcha near the bottom of the head tag in index.php</li>
+<li>Set Secret key from recaptcha in includes/verify_captcha.php</li>
+<li>Create an address in reddcoind labeled "faucet" and deposit funds</li>
+<li>Set direct faucet donation address in index.php</li>
+</ul>
+
+<p>Have any issues? Let me know on <a href="https://www.reddcointalk.org/user/iisurge">Reddcointalk</a></p>
+
+<h3>
+<a id="donations" class="anchor" href="#donations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donations</h3>
+
+<pre><code>Rsurge4R9r1XWfPpkRMZ95p7AXsez7tFqw
+</code></pre>
+
+<h3>
+<a id="default-but-configurable-options" class="anchor" href="#default-but-configurable-options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Default but configurable options</h3>
+
+<ul>
+<li>Default wait period is 12 hours (Can be modified in includes/functions.php and includes/faucet_pay.php)</li>
+<li>Table and faucet balance update every 10 second (Can be modified in index.php)</li>
+<li>Total amount payed out and Number of payouts today updated every 60 seconds (Can be modified in index.php)</li>
+<li>Table shows last 10 (Can be modified in includes/faucet_recents.php)</li>
+</ul>
+
+<h3>
+<a id="how-does-it-stop-someone-from-receiving-twice" class="anchor" href="#how-does-it-stop-someone-from-receiving-twice" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does it stop someone from receiving twice?</h3>
+
+<ul>
+<li>It logs address and IP so they can't receive twice from either in one time frame</li>
+</ul>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Reddhead-devs" class="avatar"><img src="https://avatars1.githubusercontent.com/u/10472970?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/Reddhead-devs">Reddhead-devs</a> maintains <a href="https://github.com/Reddhead-devs/Reddcoin-faucet">Reddcoin faucet</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Reddhead-devs/Reddcoin-faucet/tarball/master" class="tar">tar</a><a href="https://github.com/Reddhead-devs/Reddcoin-faucet/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
