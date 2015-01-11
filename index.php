@@ -126,7 +126,7 @@ if ($crypt->open_connection()) {
     
     <div id="formcontainer">
     <form id="faucetform">
-        <input type="text" name="faucet-pay" class="form-control" >
+        <input type="text" name="faucet-pay" class="form-control" placeholder="Rsurge4R9r1XWfPpkRMZ95p7AXsez7tFqw">
         <div id="captcha_ele"></div><br />
         <input type="submit" style="font-size: 2em;" class="btn btn-success"  value="Redeem" /> 
       
